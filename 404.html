@@ -160,7 +160,8 @@
     };
     loaded();
 })()
- </script><meta name="generator" content="Hexo 6.1.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+ </script><meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="花无名" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
@@ -385,22 +386,17 @@
     <style type="text/css">
     /* don't remove. */
     .about-cover {
-        height: 90.2vh;
+        height: 75vh;
     }
 </style>
+
 <div class="bg-cover pd-header about-cover">
     <div class="container">
         <div class="row">
             <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
                 <div class="brand">
                     <div class="title center-align">
-                        404 Sorry 您找的页面不存在！
-                    </div>
-                    <div class="title center-align">
-                        试试右上角的<span style="color:blue;font-weight:bold">搜索</span>功能？
-                    </div>
-                    <div class="title center-align">
-                        <a href="/" target="_blank">返回首页</a>
+                        404
                     </div>
                     <div class="description center-align">
                         Oops～，我崩溃了！找不到你想要的页面 :(
@@ -411,13 +407,10 @@
     </div>
 </div>
 
-
-    <script>
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-    </script>
-
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+</script>
 
 
     <footer class="page-footer bg-color">
@@ -436,7 +429,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">75</span>
+                        class="white-color">73</span>
             
             
             
@@ -531,11 +524,9 @@
 
 
 
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1373436965" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1373436965" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
+<a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
 
 
 
@@ -545,6 +536,7 @@
     <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
         <i class="fas fa-rss"></i>
     </a>
+
 
 </div>
     </div>
