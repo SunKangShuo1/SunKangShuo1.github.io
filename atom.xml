@@ -10,7 +10,7 @@
   <id>http://sunkangshuo.com/</id>
   
   <author>
-    <name>SunkangShuo</name>
+    <name>孙康硕</name>
     
   </author>
   
@@ -41,11 +41,15 @@
     <link href="http://sunkangshuo.com/2022/04027e927ea5.html"/>
     <id>http://sunkangshuo.com/2022/04027e927ea5.html</id>
     <published>2022-04-02T02:56:18.000Z</published>
-    <updated>2022-04-07T21:53:49.396Z</updated>
+    <updated>2022-04-22T06:40:56.395Z</updated>
     
     
     
     
+    <category term="Linux" scheme="http://sunkangshuo.com/categories/Linux/"/>
+    
+    
+    <category term="java" scheme="http://sunkangshuo.com/tags/java/"/>
     
   </entry>
   
