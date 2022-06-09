@@ -4,8 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="运维之道, 花无名">
-    <meta name="description" content="">
+    <meta name="keywords" content="数据库基础, 花无名">
+    <meta name="description" content="1，初识数据库javaEE：企业级Java开发，web
+前端（页面：展示，数据）
+后台（连接点：链接数据库JDBC，链接前端，(控制，控制视图跳转，和给前端传递数据)）
+数据库（存数据，TXT，Excel，word）
+1.1，为什么学习数据">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,8 +21,8 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>运维之道 | 花无名</title>
-    <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/SunKangShuo1/image-host/blog-imgfavicon.png">
+    <title>数据库基础 | 花无名</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
@@ -183,7 +187,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="https://cdn.jsdelivr.net/gh/SunKangShuo1/image-host/blog-imglogo.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">花无名</span>
                 </a>
@@ -282,7 +286,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="https://cdn.jsdelivr.net/gh/SunKangShuo1/image-host/blog-imglogo.png" class="logo-img circle responsive-img">
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">花无名</div>
         <div class="logo-desc">
@@ -392,7 +396,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">运维之道</h1>
+                    <h1 class="description center-align post-title">数据库基础</h1>
                 </div>
             </div>
         </div>
@@ -512,8 +516,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/java/">
-                                <span class="chip bg-color">java</span>
+                            <a href="/tags/MySQL/">
+                                <span class="chip bg-color">MySQL</span>
                             </a>
                         
                     </div>
@@ -524,8 +528,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Linux/" class="post-category">
-                                Linux
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AF%87/" class="post-category">
+                                数据库篇
                             </a>
                         
                     </div>
@@ -544,14 +548,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-04-28
+                    2022-05-12
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    182
                 </div>
                 
 
@@ -578,7 +582,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h2 id="1，初识数据库"><a href="#1，初识数据库" class="headerlink" title="1，初识数据库"></a>1，初识数据库</h2><p>javaEE：企业级Java开发，web</p>
+<p>前端（页面：展示，数据）</p>
+<p>后台（连接点：链接数据库JDBC，链接前端，(控制，控制视图跳转，和给前端传递数据)）</p>
+<p>数据库（存数据，TXT，Excel，word）</p>
+<h3 id="1-1，为什么学习数据库"><a href="#1-1，为什么学习数据库" class="headerlink" title="1.1，为什么学习数据库"></a>1.1，为什么学习数据库</h3><p>1.岗位需求</p>
+<p>2.大数据时代，数据为王</p>
+<p>3.被迫需求：存数据</p>
+<p>4数据是所有软件体系中最核心存在，DBA数据库管理员</p>
+<h3 id="1-2，什么是数据库"><a href="#1-2，什么是数据库" class="headerlink" title="1.2，什么是数据库"></a>1.2，什么是数据库</h3><p>数据库（DB，DataBase）</p>
+<p>概念：数据仓库，软件，安装在操作系统（Windows，Linux，mac，。。。）之上，SQL,可以存储大量的数据，无压力存储500w条数据。</p>
+<p>作用：存储数据，管理数据</p>
+<h3 id="1-3，"><a href="#1-3，" class="headerlink" title="1.3，"></a>1.3，</h3>
                 
             </div>
             <hr/>
@@ -642,8 +657,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/java/">
-                                    <span class="chip bg-color">java</span>
+                                <a href="/tags/MySQL/">
+                                    <span class="chip bg-color">MySQL</span>
                                 </a>
                             
                         </div>
@@ -1284,7 +1299,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">73</span>
+                        class="white-color">255</span>
             
             
             
