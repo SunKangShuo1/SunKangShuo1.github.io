@@ -41,7 +41,7 @@
     <link href="http://sunkangshuo.com/2022/04027e927ea5.html"/>
     <id>http://sunkangshuo.com/2022/04027e927ea5.html</id>
     <published>2022-04-02T02:56:18.000Z</published>
-    <updated>2022-05-12T01:06:15.619Z</updated>
+    <updated>2022-06-09T02:41:54.364Z</updated>
     
     <content type="html"><![CDATA[<h2 id="1，初识数据库"><a href="#1，初识数据库" class="headerlink" title="1，初识数据库"></a>1，初识数据库</h2><p>javaEE：企业级Java开发，web</p><p>前端（页面：展示，数据）</p><p>后台（连接点：链接数据库JDBC，链接前端，(控制，控制视图跳转，和给前端传递数据)）</p><p>数据库（存数据，TXT，Excel，word）</p><h3 id="1-1，为什么学习数据库"><a href="#1-1，为什么学习数据库" class="headerlink" title="1.1，为什么学习数据库"></a>1.1，为什么学习数据库</h3><p>1.岗位需求</p><p>2.大数据时代，数据为王</p><p>3.被迫需求：存数据</p><p>4数据是所有软件体系中最核心存在，DBA数据库管理员</p><h3 id="1-2，什么是数据库"><a href="#1-2，什么是数据库" class="headerlink" title="1.2，什么是数据库"></a>1.2，什么是数据库</h3><p>数据库（DB，DataBase）</p><p>概念：数据仓库，软件，安装在操作系统（Windows，Linux，mac，。。。）之上，SQL,可以存储大量的数据，无压力存储500w条数据。</p><p>作用：存储数据，管理数据</p><h3 id="1-3，"><a href="#1-3，" class="headerlink" title="1.3，"></a>1.3，</h3>]]></content>
     
