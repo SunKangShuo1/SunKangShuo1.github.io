@@ -6,7 +6,7 @@
   <link href="http://sunkangshuo.com/atom.xml" rel="self"/>
   
   <link href="http://sunkangshuo.com/"/>
-  <updated>2022-04-07T21:53:49.394Z</updated>
+  <updated>2022-09-20T15:36:03.359Z</updated>
   <id>http://sunkangshuo.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nginx</title>
+    <link href="http://sunkangshuo.com/2022/0920a477be03.html"/>
+    <id>http://sunkangshuo.com/2022/0920a477be03.html</id>
+    <published>2022-09-20T14:31:58.000Z</published>
+    <updated>2022-09-20T15:36:03.359Z</updated>
+    
+    
+    
+    
+    <category term="nginx" scheme="http://sunkangshuo.com/categories/nginx/"/>
+    
+    
+    <category term="nginx" scheme="http://sunkangshuo.com/tags/nginx/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
